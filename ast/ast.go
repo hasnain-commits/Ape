@@ -30,6 +30,8 @@ func (p *Program) TokenLiteral() string {
 	}
 }
 
+// Represents the let statement in the Ape Programming Language.
+// let x = 5 + 5
 type LetStatement struct {
 	Token token.Token // the token.LET token
 	Name  *Identifier
